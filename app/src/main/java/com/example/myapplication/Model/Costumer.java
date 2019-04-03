@@ -7,7 +7,7 @@ public class Costumer {
     public int idLocation;
 
 
-    public Costumer(int idCostumer,String costumerName, int idLocation, int idTool){
+    public Costumer(int idCostumer,String costumerName, int idLocation){
         this.idCostumer=idCostumer;
         this.costumerName=costumerName;
         this.idLocation=idLocation;

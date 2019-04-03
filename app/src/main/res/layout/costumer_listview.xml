@@ -16,19 +16,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_costumerid"
-        android:text="idCostumer"/>
+        android:text="@string/idCostumer"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_costumerName"
-        android:text="Name"/>
+        android:text="@string/Name"/>
 
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_costumerLocation"
-        android:text="Location"/>
+        android:text="@string/Location"/>
 
 
 

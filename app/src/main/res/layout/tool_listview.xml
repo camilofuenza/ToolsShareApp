@@ -16,28 +16,29 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_toolName"
-        android:text="toolName"/>
+        android:text="@string/toolName"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_toolDescription"
-        android:text="toolDescription"/>
+        android:text="@string/toolDescription"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_isAvailable"
-        android:text="isAvailable"/>
+        android:text="@string/isAvailable"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_categoryName"
-        android:text="CategoryName"/>
+        android:text="@string/categoryName"/>
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_costumerName"
-        android:text="CostumerName"/>
+        android:text="@string/costumerName"/>
 
 
 

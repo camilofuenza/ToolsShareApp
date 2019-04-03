@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="toolName">toolName</string>
+    <string name="toolDescription">toolDescription</string>
+    <string name="isAvailable">isAvailable</string>
+    <string name="categoryName">categoryName</string>
+    <string name="costumerName">costumerName</string>
+
+    <string name="gmail">gmail</string>
+
+    <string name="idCostumer">idCostumer</string>
+    <string name="Name">Name</string>
+    <string name="Location">Location</string>
+
+    <string name="seeTools">SEE TOOLS</string>
 </resources>

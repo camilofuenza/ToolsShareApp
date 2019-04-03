@@ -31,31 +31,28 @@ public class DisplayTools extends AppCompatActivity {
         setContentView(R.layout.activity_display_tools);
 
 
-        toolList=(ListView) findViewById(R.id.lvTools);
+        toolList = (ListView) findViewById(R.id.lvTools);
 
-        DBAccess dbAccess= DBAccess.getInstance(getApplicationContext());
+        DBAccess dbAccess = DBAccess.getInstance(getApplicationContext());
         dbAccess.open();
-        list= dbAccess.getToolList();
-        adapter= new ToolsAdapter(this,list);
+        list = dbAccess.getToolList();
+        adapter = new ToolsAdapter(this, list);
         toolList.setAdapter(adapter);
+
 
         dbAccess.close();
 
 
 
-        btnUrl=(Button)findViewById(R.id.btnUrl);
+       btnUrl=(Button)findViewById(R.id.btnUrl);
         btnUrl.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i= new Intent();
-                String link= i.getStringExtra("www.gmail.com");
-
-                Uri viewUri= Uri.parse(link);
-
-                Intent viewIntent= new Intent(Intent.ACTION_VIEW,viewUri);
-                startActivity(viewIntent);
+                Intent browse= new Intent(Intent.ACTION_VIEW, Uri.parse("https:www.gmail.com"));
+                startActivity(browse);
             }
         });
     }
 
-}
+    }
+

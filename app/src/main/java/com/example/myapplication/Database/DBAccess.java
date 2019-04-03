@@ -47,7 +47,7 @@ public class DBAccess {
         Cursor cursor= db.rawQuery("select * from costumer",null);
         cursor.moveToFirst();
         while(!cursor.isAfterLast()){
-            costumer= new Costumer(cursor.getInt(0),cursor.getString(1),cursor.getInt(2),cursor.getInt(3));
+            costumer= new Costumer(cursor.getInt(0),cursor.getString(1),cursor.getInt(2));
             costumerList.add(costumer);
             cursor.moveToNext();
 

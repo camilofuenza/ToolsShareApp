@@ -50,7 +50,7 @@ public class ToolsAdapter extends  BaseAdapter{
 
             tvtoolName.setText(String.valueOf(toolList.get(position).getToolName()));
             tvtoolDescription.setText(String.valueOf(toolList.get(position).getToolDescription()));
-            tvisAvailable.setText(toolList.get(position).getIsAvailable());
+            tvisAvailable.setText(String.valueOf(toolList.get(position).getIsAvailable()));
             tvcategoryName.setText(String.valueOf(toolList.get(position).getCategoryName()));
             tvcostumerName.setText(String.valueOf(toolList.get(position).getCostumerName()));
 
