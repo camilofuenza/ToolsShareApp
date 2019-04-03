@@ -9,19 +9,21 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btnToolsPage"
 
-        android:text="SEE TOOLS"
+    <Button
+        android:id="@+id/btnUrl"
+
+        android:text="Gmail"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        />
+        android:layout_marginRight="10dp"/>
+
+
 
     <ListView
-        android:id="@+id/lvCostumer"
+        android:id="@+id/lvTools"
         android:layout_width="match_parent"
         android:layout_height="438dp"
         android:layout_marginLeft="10dp"

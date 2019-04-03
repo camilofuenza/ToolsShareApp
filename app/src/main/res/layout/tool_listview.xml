@@ -15,20 +15,29 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/tv_costumerid"
-        android:text="idCostumer"/>
+        android:id="@+id/tv_toolName"
+        android:text="toolName"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_toolDescription"
+        android:text="toolDescription"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_isAvailable"
+        android:text="isAvailable"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_categoryName"
+        android:text="CategoryName"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_costumerName"
-        android:text="Name"/>
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_costumerLocation"
-        android:text="Location"/>
+        android:text="CostumerName"/>
 
 
 
