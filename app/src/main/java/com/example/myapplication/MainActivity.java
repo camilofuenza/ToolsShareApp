@@ -26,6 +26,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        //Start tool activity to test
+        //startActivity(new Intent(MainActivity.this, ToolList.class));
+
         costumerslist=(ListView) findViewById(R.id.lvCostumer);
 
         DBAccess dbAccess= DBAccess.getInstance(getApplicationContext());

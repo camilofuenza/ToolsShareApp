@@ -6,11 +6,15 @@ public class Costumer {
     public String costumerName;
     public int idLocation;
 
+    public String postalCode;
 
-    public Costumer(int idCostumer,String costumerName, int idLocation){
+
+    public Costumer(int idCostumer,String costumerName, int idLocation, String postalCode){
         this.idCostumer=idCostumer;
         this.costumerName=costumerName;
         this.idLocation=idLocation;
+
+        this.postalCode = postalCode;
 
     }
 
@@ -38,5 +42,12 @@ public class Costumer {
         this.idLocation = idLocation;
     }
 
+    public String getPostalCode() {
+        return postalCode;
+    }
+
+    public void setPostalCode(String postalCode) {
+        this.postalCode = postalCode;
+    }
 
 }

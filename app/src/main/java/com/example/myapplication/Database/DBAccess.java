@@ -44,10 +44,13 @@ public class DBAccess {
         Costumer costumer= null;
         List<Costumer> costumerList= new ArrayList<>();
         open();
-        Cursor cursor= db.rawQuery("select * from costumer",null);
+        Cursor cursor= db.rawQuery("select C.idCostumer, C.costumerName, C.idLocation, " +
+                "L.postalCode from costumer C join Location L on (C.idLocation = L.idLocation)"
+                ,null);
         cursor.moveToFirst();
         while(!cursor.isAfterLast()){
-            costumer= new Costumer(cursor.getInt(0),cursor.getString(1),cursor.getInt(2));
+            costumer= new Costumer(cursor.getInt(0),cursor.getString(1),
+                    cursor.getInt(2), cursor.getString(3));
             costumerList.add(costumer);
             cursor.moveToNext();
 
@@ -84,4 +87,12 @@ public class DBAccess {
         close();
         return toolList;
     }
+
+//    public String getPostalCode(int idPostalCode) {
+//        String output = null;
+//
+//        open();
+//
+//        Cursor cursor = db.rawQuery("select postalCode, ")
+//    }
 }
