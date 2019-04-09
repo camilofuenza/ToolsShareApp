@@ -6,21 +6,29 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
-
     <application
+        android:name=".App"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="TinderBox"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:name=".App"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".EditToolProfile"></activity>
+        <activity
+            android:name=".ToolProfile"
+            android:label="@string/title_activity_tool_profile" />
         <activity
             android:name=".ToolList"
             android:label="@string/title_activity_tool_list" />
+        <activity
+            android:name=".MyTools"
+            android:label="@string/title_activity_my_tools">
+        </activity>
         <activity android:name=".DisplayTools" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".CreateToolProfile" />
+        <activity android:name=".Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

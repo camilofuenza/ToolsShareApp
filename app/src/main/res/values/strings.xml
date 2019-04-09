@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">TinderBox</string>
     <string name="toolName">toolName</string>
     <string name="toolDescription">toolDescription</string>
     <string name="isAvailable">isAvailable</string>
@@ -7,17 +7,19 @@
     <string name="costumerName">costumerName</string>
 
     <string name="gmail">gmail</string>
-    <string name="download">Download</string>
 
     <string name="idCostumer">idCostumer</string>
     <string name="Name">Name</string>
     <string name="Location">Location</string>
 
     <string name="seeTools">SEE TOOLS</string>
+    <string name="title_activity_my_tools">MyTools</string>
     <string name="title_activity_tool_list">ToolList</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
+    <string name="title_home">Find Tools</string>
+    <string name="title_dashboard">My Tools</string>
     <string name="title_notifications">Notifications</string>
-
-    <string name="button_delete">Button Delete</string>
+    <string name="button_create">Create</string>
+    <string name="button_approve">Approve</string>
+    <string name="button_delete">Delete</string>
+    <string name="title_activity_tool_profile">ToolProfile</string>
 </resources>

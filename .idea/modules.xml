@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TinderBox-dev.iml" filepath="$PROJECT_DIR$/TinderBox-dev.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TinderBox-feat-FileDownload.iml" filepath="$PROJECT_DIR$/TinderBox-feat-FileDownload.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TinderBox.iml" filepath="$PROJECT_DIR$/TinderBox.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
